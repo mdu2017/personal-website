@@ -18,10 +18,11 @@ const Content = () => {
                 </Typography>
             </div>
 
-            <Project title='Project1...' date='Fall 2020' image='fill' description='This is abc'/>
-            <Project title='Project2...'/>
-            <Project title='Project3...'/>
+            <Project projectName='P1' description='Semester project'/>
 
+            {/* <Project title='Project1...' date='Fall 2019' image='fill' description='This is abc'/>
+            <Project title='Project2...' date='Summer 2020' description='Summer 2020'/>
+            <Project title='Project3...' date='Winter 2020' description='Research project'/> */}
 
         </div>
     )
