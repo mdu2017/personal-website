@@ -1,14 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-import { Button, Form, FormControl, TextField } from '@material-ui/core' 
-import EmpForm from './EmpForm'
+import './App.css'
+import Header from './Components/Header'
+import Content from './Components/Content'
+import Footer from './Components/Footer'
+import { TabScrollButton } from '@material-ui/core';
 
+// Set main page to be scrollable, and teal background
+const styles = {
+  backgroundStyle: {
+    backgroundColor: '#cff8fc',
+    height: '300vh',
+  }
+}
+
+// The main page. Should have a header, content(projects, experience), footer
 const App = () => {
   return (
-    <div>
-      <FormControl>
-        <EmpForm/>
-      </FormControl>
+    <div style={styles.backgroundStyle}>
+
+      <Header author="About Mark Du"/>
+
+      <Content/>
+
+      <Footer/>
     </div>
   );
 }
