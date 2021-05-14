@@ -4,6 +4,10 @@ import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const styles = {
+
+    footerTopPadding: {
+        paddingTop: '5%',
+    },
     centerIcons: {
         display: 'flex',
         justifyContent: 'center',
@@ -22,7 +26,7 @@ const styles = {
 // Brief footer with conclusion
 const Footer = () => {
     return (
-        <div>
+        <div style={styles.footerTopPadding}>
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
                     Thanks for reading the webpage. Feel free to visit my LinkedIn or GitHub page by clicking on the icons below.
             </Typography>

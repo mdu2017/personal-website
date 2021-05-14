@@ -8,7 +8,7 @@ import { TabScrollButton } from '@material-ui/core';
 const styles = {
   backgroundStyle: {
     backgroundColor: '#cff8fc',
-    height: '300vh',
+    height: '250vh',
   }
 }
 
