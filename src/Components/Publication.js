@@ -8,39 +8,34 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
-import proj1 from '../images/emoji_bot.PNG';
-
 const useStyles = makeStyles({
   root: {
-    maxWidth: 400,
+    maxWidth: 500,
+    width: 400,
   },
   media: {
-    height: 200,
+    height: 250,
   },
 });
 
 const imageStyle = {
     imgStyle:{
         height: '100%',
+        width: '100%',
     },
 
     descriptionBox:{
-      // height: '100%',
-      height: 125,
+    //   height: '100%',
+      height: 180,
     },
 
     cardPadding: {
-      padding: 10,
+        padding: 10,
     }
 }
 
-const Project = ({projectName, description, imageSrc, githubURL}) => {
+const Publication = ({paperTitle, description, imageSrc, articleURL}) => {
   const classes = useStyles();
-
-  // Go to github page when image is clicked
-  const linkToProfile = () => {
-    // window.location.assign('https://github.com/mdu2017/')
-  }
 
   return (
       <div style={imageStyle.cardPadding}>
@@ -48,14 +43,14 @@ const Project = ({projectName, description, imageSrc, githubURL}) => {
         <CardActionArea>
 
         {/* Image URL */}
-        <CardMedia className={classes.media} title={projectName}>
-          <img src={imageSrc} component="img" style={imageStyle.imgStyle} onClick={() => linkToProfile()}/>
+        <CardMedia className={classes.media} title={paperTitle}>
+          <img src={imageSrc} component="img" style={imageStyle.imgStyle}/>
         </CardMedia>
 
         {/* Project name and description */}
         <CardContent style={imageStyle.descriptionBox}>
           <Typography gutterBottom variant="h5" component="h2">
-            {projectName}
+            {paperTitle}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
             {description}
@@ -65,8 +60,8 @@ const Project = ({projectName, description, imageSrc, githubURL}) => {
 
       {/* Link to Github */}
       <CardActions>
-        <Button size="small" variant="outlined" color="primary" href={githubURL}>
-          View on GitHub
+        <Button size="small" variant="outlined" color="primary" href={articleURL}>
+          View Paper
         </Button>
       </CardActions>
 
@@ -75,4 +70,4 @@ const Project = ({projectName, description, imageSrc, githubURL}) => {
   );
 }
 
-export default Project
+export default Publication
