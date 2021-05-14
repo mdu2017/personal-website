@@ -2,11 +2,6 @@ import React from 'react'
 import Typography from '@material-ui/core/Typography'
 
 const styles = {
-
-  linkColor:{
-    color: 'black'
-  },
-
   headerText: {
     paddingLeft: '10%',
     paddingRight: '10%',

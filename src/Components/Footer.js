@@ -14,6 +14,10 @@ const styles = {
     linkIcons: {
         fontSize: 75,
     },
+
+    linkColor:{
+        color: 'black'
+    },
 }
 // Brief footer with conclusion
 const Footer = () => {
