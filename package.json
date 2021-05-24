@@ -1,6 +1,6 @@
 {
-  "homepage": "https://mdu2017.github.io/personal-website",
-  "name": "react-flask-app",
+  "homepage": "https://mdu2017.github.io/website",
+  "name": "website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
