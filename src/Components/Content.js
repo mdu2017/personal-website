@@ -35,6 +35,11 @@ const Content = () => {
             </div>
 
             <div className='project-card' style={styles.projectCards}>
+                <Project projectName='Finance Tracker App' 
+                    description='Spring 2021 Hackathon Project - Application that helps users keep track on spending. Built using the Capitol One Nessie API along with React'
+                    imageSrc={hackathonProj}
+                    githubURL='https://github.com/mdu2017/hack-utd-project'/>
+
                 <Project projectName='Emoji Statistics Bot' 
                     description='Discord bot that analyzes emoji usage within a discord server'
                     imageSrc={emojiProj}
@@ -44,11 +49,6 @@ const Content = () => {
                     description='Convex Hull Visualization for Brute Force and Divide and Conquer'
                     imageSrc={algProj}
                     githubURL='https://github.com/mdu2017/'/>
-
-                <Project projectName='Finance Tracker App' 
-                    description='Spring 2021 Hackathon Project - Application that helps users keep track on spending. Built using the Capitol One Nessie API along with React'
-                    imageSrc={hackathonProj}
-                    githubURL='https://github.com/mdu2017/hack-utd-project'/>
             </div>
 
             <br/> <br/>

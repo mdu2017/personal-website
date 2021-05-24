@@ -35,7 +35,12 @@ const Footer = () => {
               {/* Links to github, LinkedIn, and paper publications */}
               <a style={styles.linkColor} href='https://github.com/mdu2017'><GitHubIcon style={styles.linkIcons}/></a>
               <a style={styles.linkColor} href='https://www.linkedin.com/in/mark-t-du/'><LinkedInIcon style={styles.linkIcons}/></a>
-          </div>
+              
+            </div>
+
+            <Typography variant="h6" align="center" color="textSecondary" paragraph>
+                    Email: mark_du1@baylor.edu
+            </Typography>
         </div>
     )
 }
