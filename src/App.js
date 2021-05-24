@@ -2,12 +2,11 @@ import './App.css'
 import Header from './Components/Header'
 import Content from './Components/Content'
 import Footer from './Components/Footer'
-import { TabScrollButton } from '@material-ui/core';
 
 // Set main page to be scrollable, and teal background
 const styles = {
   backgroundStyle: {
-    backgroundColor: '#cff8fc',
+    backgroundColor: '#cff8fc', // This is sky blue
     height: '250vh',
   }
 }
