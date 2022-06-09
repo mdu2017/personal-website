@@ -4,7 +4,7 @@ import Experience from './Experience'
 import {Typography} from '@material-ui/core'
 import { InfoOutlined } from '@material-ui/icons'
 
-import algProj from '../images/algorithm_project.jpg'
+import scProj from '../images/sc_project.PNG'
 import emojiProj from '../images/emoji_bot.PNG'
 import hackathonProj from '../images/hackathon_project.png'
 import Publication from './Publication'
@@ -45,10 +45,10 @@ const Content = () => {
                     imageSrc={emojiProj}
                     githubURL='https://github.com/mdu2017/emoji-stats-bot'/>
 
-                <Project projectName='Convex Hull Visualizer' 
-                    description='Convex Hull Visualization for Brute Force and Divide and Conquer'
-                    imageSrc={algProj}
-                    githubURL='https://github.com/mdu2017/'/>
+                <Project projectName='Starcraft Unit Damage Charts' 
+                    description='Streamlit project that provides visualizations and charts for unit damages in Starcraft: Brood War.'
+                    imageSrc={scProj}
+                    githubURL='https://github.com/mdu2017/6pool'/>
             </div>
 
             <br/> <br/>
