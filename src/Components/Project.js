@@ -42,7 +42,7 @@ const Project = ({projectName, description, imageSrc, githubURL}) => {
 
   // Go to github page when image is clicked
   const linkToProfile = () => {
-    // window.location.assign('https://github.com/mdu2017/')
+    window.location.assign(githubURL)
   }
 
   return (
