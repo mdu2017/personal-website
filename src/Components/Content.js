@@ -13,12 +13,12 @@ import logAnalysis from '../images/log_analysis.PNG'
 
 const styles = {
     projectHeading: {
-        padding: '50px'
+        paddingTop: '50px'
     },
 
     projectCards: {
-        paddingLeft: '20%',
-        paddingRight: '20%',
+        paddingLeft: '15%',
+        paddingRight: '15%',
         display: 'flex',
         justifyContent: 'center',
     }
@@ -28,12 +28,14 @@ const styles = {
 const Content = () => {
     return(
         <div>
+            {/* Header Section */}
             <div style={styles.projectHeading}>
                 <Typography variant="h3" align="center" color="textPrimary" paragraph>
                     Here are some of my projects
                 </Typography>
             </div>
 
+            {/* Project Section */}
             <div className='project-card' style={styles.projectCards}>
                 <Project projectName='Finance Tracker App' 
                     description='Spring 2021 Hackathon Project - Application that helps users keep track on spending. Built using the Capitol One Nessie API along with React'

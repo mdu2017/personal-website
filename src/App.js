@@ -7,7 +7,13 @@ import Footer from './Components/Footer'
 const styles = {
   backgroundStyle: {
     backgroundColor: '#cff8fc', // This is sky blue
-    height: '250vh',
+    display: 'flex',
+    flexWrap: 'wrap',
+    overflow: 'hidden',  // This is used to hide the scrollbar at the bottom
+  },
+  breakStyle: {
+    flexBasis: '100%',
+    height: 0,
   }
 }
 
@@ -17,6 +23,8 @@ const App = () => {
     <div style={styles.backgroundStyle}>
 
       <Header author="About Mark Du"/>
+
+      {/* <div style={styles.breakStyle}></div> */}
 
       <Content/>
 
