@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.433e8aef.chunk.css",
+    "main.js": "/website/static/js/main.02386126.chunk.js",
+    "main.js.map": "/website/static/js/main.02386126.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.ee2ea6fb.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.ee2ea6fb.js.map",
+    "static/js/2.eaa8f9ac.chunk.js": "/website/static/js/2.eaa8f9ac.chunk.js",
+    "static/js/2.eaa8f9ac.chunk.js.map": "/website/static/js/2.eaa8f9ac.chunk.js.map",
+    "index.html": "/website/index.html",
+    "static/css/main.433e8aef.chunk.css.map": "/website/static/css/main.433e8aef.chunk.css.map",
+    "static/js/2.eaa8f9ac.chunk.js.LICENSE.txt": "/website/static/js/2.eaa8f9ac.chunk.js.LICENSE.txt",
+    "static/media/discordpy.8eb2601a.PNG": "/website/static/media/discordpy.8eb2601a.PNG",
+    "static/media/docker.aa6a6676.png": "/website/static/media/docker.aa6a6676.png",
+    "static/media/emoji_bot.86df20fa.PNG": "/website/static/media/emoji_bot.86df20fa.PNG",
+    "static/media/hackathon_project.556a3f40.png": "/website/static/media/hackathon_project.556a3f40.png",
+    "static/media/log_analysis.7f42048e.PNG": "/website/static/media/log_analysis.7f42048e.PNG",
+    "static/media/mapping_study.61dbd4db.PNG": "/website/static/media/mapping_study.61dbd4db.PNG",
+    "static/media/postgresql.8cc1c370.png": "/website/static/media/postgresql.8cc1c370.png",
+    "static/media/sc_project.3f18df61.PNG": "/website/static/media/sc_project.3f18df61.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee2ea6fb.js",
+    "static/js/2.eaa8f9ac.chunk.js",
+    "static/css/main.433e8aef.chunk.css",
+    "static/js/main.02386126.chunk.js"
+  ]
+}
