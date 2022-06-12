@@ -24,7 +24,6 @@ const styles = {
     }
 }
 
-// This component will have all the major body paragraphs and explanations
 const Content = () => {
     return(
         <div>
