@@ -25,13 +25,16 @@ const imageStyle = {
     },
 
     descriptionBox:{
-      // height: '100%',
-      height: 125,
+      height: '100%',
     },
 
     cardPadding: {
-      padding: 10,
-    }
+      padding: 5,
+    },
+
+    cardBoxSize: {
+      height: '100%', // makes sure each card is the same size regardless of description length
+    },
 }
 
 const Project = ({projectName, description, imageSrc, githubURL}) => {
@@ -44,7 +47,7 @@ const Project = ({projectName, description, imageSrc, githubURL}) => {
 
   return (
       <div style={imageStyle.cardPadding}>
-      <Card className={classes.root} variant="outlined">
+      <Card className={classes.root} variant="outlined" style={imageStyle.cardBoxSize}>
         <CardActionArea>
 
         {/* Image URL */}

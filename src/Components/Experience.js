@@ -25,6 +25,7 @@ import postmanIcon from '../images/postman.png'
 import dockerIcon from '../images/docker.png'
 import nodejsIcon from '../images/nodejs.png'
 import discordpyIcon from '../images/discordpy.PNG'
+import goIcon from '../images/golang.png'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -70,6 +71,7 @@ const skillsList = [
     {name: 'Docker', imgSrc: dockerIcon},
     {name: 'node.js', imgSrc: nodejsIcon},
     {name: 'discord.py', imgSrc: discordpyIcon},
+    {name: 'Go', imgSrc: goIcon},
 ]
 
 // Include links to paper/publications

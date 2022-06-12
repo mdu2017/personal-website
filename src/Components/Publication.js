@@ -25,12 +25,15 @@ const imageStyle = {
     },
 
     descriptionBox:{
-    //   height: '100%',
-      height: 180,
+      height: '100%',
     },
 
     cardPadding: {
         padding: 10,
+    },
+
+    cardBoxSize: {
+      height: '100%',
     }
 }
 
@@ -39,7 +42,7 @@ const Publication = ({paperTitle, description, imageSrc, articleURL}) => {
 
   return (
       <div style={imageStyle.cardPadding}>
-      <Card className={classes.root} variant="outlined">
+      <Card className={classes.root} variant="outlined" style={imageStyle.cardBoxSize}>
         <CardActionArea>
 
         {/* Image URL */}
