@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  website:
+    container_name: mark_website
+    build:
+      context: ./website
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - /website/node_modules
+      - ./website:/website
+    stdin_open: true
+    tty: true
+      
